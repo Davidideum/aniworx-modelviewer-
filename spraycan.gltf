@@ -1,0 +1,295 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylinder"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cylinder.001",
+            "rotation" : [
+                0.7303561568260193,
+                0,
+                0,
+                0.6830664873123169
+            ],
+            "scale" : [
+                0.05516693741083145,
+                0.007291034329682589,
+                0.05516693741083145
+            ],
+            "translation" : [
+                6.797467358410358e-05,
+                2.7674648761749268,
+                -0.19353823363780975
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.6000003814697266
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.48181816935539246
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material.001_Normals_02",
+            "uri" : "Material_001_Normals_02.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material.001_Base_Color_03",
+            "uri" : "Material_001_Base_Color_03.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material-Material",
+            "uri" : "Material-Material.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Material_Base_Color",
+            "uri" : "Material_Base_Color.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 53245,
+            "max" : [
+                1.0435404777526855,
+                2.9092578887939453,
+                1.0435404777526855
+            ],
+            "min" : [
+                -1.0435404777526855,
+                -0.987194299697876,
+                -1.0435404777526855
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 53245,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 53245,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 282432,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 9191,
+            "max" : [
+                0.9023690819740295,
+                5.578347206115723,
+                0.8977149724960327
+            ],
+            "min" : [
+                -0.9023690819740295,
+                -0.9768731594085693,
+                -0.9511728882789612
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 9191,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 9191,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 49152,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 638940,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 638940,
+            "byteOffset" : 638940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 425960,
+            "byteOffset" : 1277880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 564864,
+            "byteOffset" : 1703840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110292,
+            "byteOffset" : 2268704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110292,
+            "byteOffset" : 2378996
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 73528,
+            "byteOffset" : 2489288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 98304,
+            "byteOffset" : 2562816
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2661120,
+            "uri" : "spraycan.bin"
+        }
+    ]
+}
